@@ -13,6 +13,15 @@
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+
+      <form>
+        <input type="text" class="input" id="name" placeholder="name" name="name" minlength="20" required>
+        <input type="text" class="input" id="name-slug" placeholder="name_slug" name="name_slug" pattern="^[a-zA-Z]*" required>
+        <input type="number" class="input" id="contributers" placeholder="contributers" min="1" max="100"
+          name="contributers" required>
+        <input type="number" class="input" id="branches" name="max_branches" placeholder="branches" min="1" max="100"
+          required>
+    </form>
     </div>
   </body>
 </html>
